@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using VendingMachine.Models;
 
-namespace VendingMachine.Models
+namespace VendingMachine.Controllers
 {
     public class RoleController : Controller
     {
