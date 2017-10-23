@@ -29,5 +29,7 @@ namespace VendingMachine.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<VendingMachine.Models.Manager> Managers { get; set; }
     }
 }
