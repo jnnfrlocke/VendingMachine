@@ -208,6 +208,10 @@
     <Compile Include="Migrations\201710231834107_InitialMigration.Designer.cs">
       <DependentUpon>201710231834107_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710241609434_ClonedProject.cs" />
+    <Compile Include="Migrations\201710241609434_ClonedProject.Designer.cs">
+      <DependentUpon>201710241609434_ClonedProject.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Inventory.cs" />
@@ -301,6 +305,9 @@
     <EmbeddedResource Include="Migrations\201710231834107_InitialMigration.resx">
       <DependentUpon>201710231834107_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710241609434_ClonedProject.resx">
+      <DependentUpon>201710241609434_ClonedProject.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -316,7 +323,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>47303</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
